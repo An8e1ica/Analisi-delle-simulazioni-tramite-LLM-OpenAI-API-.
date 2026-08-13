@@ -1,0 +1,15 @@
+Generazione degli staffettisti
+        ↓
+Applicazione delle regole
+        ↓
+Costruzione del DiGraph pesato
+        ↓
+Calcolo di metriche, percorsi e sottogruppi
+        ↓
+Salvataggio dei risultati in JSON
+        ↓
+Interpretazione delle singole simulazioni tramite OpenAI API
+        ↓
+Salvataggio delle interpretazioni
+        ↓
+Confronto complessivo delle simulazioni tramite OpenAI API

@@ -1,0 +1,17 @@
+{
+    "gruppo_riferimento": "a",
+    "numero_sottogruppi": 1,
+    "sottogruppi": [
+        {
+            "numero": 1,
+            "numero_componenti": 10,
+            "eta_media": 27.8,
+            "eta_std": 9.05,
+            "anni_servizio_media": 6.6,
+            "anni_servizio_std": 9.12,
+            "titolo_studio_moda": [
+                "licenza media"
+            ]
+        }
+    ]
+}

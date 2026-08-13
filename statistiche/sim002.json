@@ -1,0 +1,28 @@
+{
+    "gruppo_riferimento": "B",
+    "numero_sottogruppi": 2,
+    "sottogruppi": [
+        {
+            "numero": 1,
+            "numero_componenti": 5,
+            "eta_media": 34.8,
+            "eta_std": 11.26,
+            "anni_servizio_media": 5.0,
+            "anni_servizio_std": 3.61,
+            "titolo_studio_moda": [
+                "diploma"
+            ]
+        },
+        {
+            "numero": 2,
+            "numero_componenti": 5,
+            "eta_media": 37.8,
+            "eta_std": 13.75,
+            "anni_servizio_media": 15.6,
+            "anni_servizio_std": 15.39,
+            "titolo_studio_moda": [
+                "laurea magistrale"
+            ]
+        }
+    ]
+}

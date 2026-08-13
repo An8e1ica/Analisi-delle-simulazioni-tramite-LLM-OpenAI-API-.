@@ -1,0 +1,692 @@
+{
+    "regola": {
+        "nome": "calcola peso tutto",
+        "descrizione": "ho inserito tutti i fattori ocn 30 persone e un soglia 8 per gli archi , troppo alta"
+    },
+    "staffettisti": [
+        {
+            "nome": "heidi",
+            "eta": 24,
+            "x": 6,
+            "y": 0,
+            "anni_di_servizio": 6,
+            "titolo_studio": "laurea triennale",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "alberto",
+            "eta": 64,
+            "x": 5,
+            "y": 3,
+            "anni_di_servizio": 9,
+            "titolo_studio": "laurea triennale",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "giacomo",
+            "eta": 28,
+            "x": 8,
+            "y": 4,
+            "anni_di_servizio": 4,
+            "titolo_studio": "laurea magistrale",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "clelia",
+            "eta": 28,
+            "x": 9,
+            "y": 3,
+            "anni_di_servizio": 7,
+            "titolo_studio": "laurea magistrale",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "elga",
+            "eta": 51,
+            "x": 1,
+            "y": 2,
+            "anni_di_servizio": 13,
+            "titolo_studio": "licenza media",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "elena",
+            "eta": 23,
+            "x": 7,
+            "y": 9,
+            "anni_di_servizio": 2,
+            "titolo_studio": "licenza media",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "gioia ",
+            "eta": 30,
+            "x": 3,
+            "y": 7,
+            "anni_di_servizio": 7,
+            "titolo_studio": "licenza media",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "bernardo",
+            "eta": 48,
+            "x": 10,
+            "y": 5,
+            "anni_di_servizio": 19,
+            "titolo_studio": "laurea magistrale",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "barbara",
+            "eta": 36,
+            "x": 8,
+            "y": 9,
+            "anni_di_servizio": 7,
+            "titolo_studio": "licenza media",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "federica",
+            "eta": 20,
+            "x": 2,
+            "y": 9,
+            "anni_di_servizio": 1,
+            "titolo_studio": "licenza media",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "cosimo",
+            "eta": 64,
+            "x": 7,
+            "y": 1,
+            "anni_di_servizio": 46,
+            "titolo_studio": "laurea magistrale",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "carla",
+            "eta": 30,
+            "x": 9,
+            "y": 0,
+            "anni_di_servizio": 6,
+            "titolo_studio": "laurea magistrale",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "giorgio",
+            "eta": 51,
+            "x": 3,
+            "y": 3,
+            "anni_di_servizio": 28,
+            "titolo_studio": "diploma",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "anna",
+            "eta": 28,
+            "x": 2,
+            "y": 4,
+            "anni_di_servizio": 4,
+            "titolo_studio": "licenza media",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "dora",
+            "eta": 29,
+            "x": 5,
+            "y": 2,
+            "anni_di_servizio": 3,
+            "titolo_studio": "licenza media",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "fulvia",
+            "eta": 33,
+            "x": 2,
+            "y": 0,
+            "anni_di_servizio": 7,
+            "titolo_studio": "diploma",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "ada",
+            "eta": 44,
+            "x": 10,
+            "y": 6,
+            "anni_di_servizio": 15,
+            "titolo_studio": "laurea triennale",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "fabrizio",
+            "eta": 37,
+            "x": 8,
+            "y": 3,
+            "anni_di_servizio": 1,
+            "titolo_studio": "laurea magistrale",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "ferdy",
+            "eta": 20,
+            "x": 2,
+            "y": 10,
+            "anni_di_servizio": 0,
+            "titolo_studio": "diploma",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "germana",
+            "eta": 19,
+            "x": 4,
+            "y": 5,
+            "anni_di_servizio": 1,
+            "titolo_studio": "diploma",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "gianfranco",
+            "eta": 38,
+            "x": 8,
+            "y": 0,
+            "anni_di_servizio": 17,
+            "titolo_studio": "laurea triennale",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "luca",
+            "eta": 55,
+            "x": 7,
+            "y": 4,
+            "anni_di_servizio": 34,
+            "titolo_studio": "licenza media",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "laura",
+            "eta": 51,
+            "x": 3,
+            "y": 9,
+            "anni_di_servizio": 2,
+            "titolo_studio": "laurea triennale",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "bianca",
+            "eta": 36,
+            "x": 1,
+            "y": 0,
+            "anni_di_servizio": 18,
+            "titolo_studio": "licenza media",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "dina",
+            "eta": 37,
+            "x": 0,
+            "y": 4,
+            "anni_di_servizio": 3,
+            "titolo_studio": "diploma",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "davide",
+            "eta": 29,
+            "x": 9,
+            "y": 9,
+            "anni_di_servizio": 0,
+            "titolo_studio": "licenza media",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "cesare",
+            "eta": 64,
+            "x": 5,
+            "y": 3,
+            "anni_di_servizio": 21,
+            "titolo_studio": "laurea magistrale",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "erik",
+            "eta": 48,
+            "x": 0,
+            "y": 10,
+            "anni_di_servizio": 23,
+            "titolo_studio": "diploma",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "ermanno",
+            "eta": 36,
+            "x": 0,
+            "y": 7,
+            "anni_di_servizio": 3,
+            "titolo_studio": "diploma",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        },
+        {
+            "nome": "boris",
+            "eta": 46,
+            "x": 7,
+            "y": 4,
+            "anni_di_servizio": 23,
+            "titolo_studio": "laurea magistrale",
+            "presente": true,
+            "in_degree": 1.0,
+            "out_degree": 1.0,
+            "in_degree_pesato": 1.0,
+            "out_degree_pesato": 1.0,
+            "centralita_entrata": 0.03225806451612903,
+            "centralita_uscita": 0.03225806451612903,
+            "betweenness": 3.5842293906810036e-05,
+            "eigen": 0.0008333160798372125,
+            "closeness": 0.03225806451612903,
+            "pagerank": 0.017407805294753588
+        }
+    ],
+    "percorsi": {
+        "numero_totale": 30,
+        "percorso_meno_passaggi": [
+            "Partenza",
+            "heidi",
+            "Destinazione"
+        ],
+        "numero_passaggi_minimo": 2,
+        "percorso_piu_passaggi": [
+            "Partenza",
+            "heidi",
+            "Destinazione"
+        ],
+        "numero_passaggi_massimo": 2
+    },
+    "sottogruppi": [
+        [
+            "heidi"
+        ],
+        [
+            "alberto"
+        ],
+        [
+            "giacomo"
+        ],
+        [
+            "clelia"
+        ],
+        [
+            "elga"
+        ],
+        [
+            "elena"
+        ],
+        [
+            "gioia "
+        ],
+        [
+            "bernardo"
+        ],
+        [
+            "barbara"
+        ],
+        [
+            "federica"
+        ],
+        [
+            "cosimo"
+        ],
+        [
+            "carla"
+        ],
+        [
+            "giorgio"
+        ],
+        [
+            "anna"
+        ],
+        [
+            "dora"
+        ],
+        [
+            "fulvia"
+        ],
+        [
+            "ada"
+        ],
+        [
+            "fabrizio"
+        ],
+        [
+            "ferdy"
+        ],
+        [
+            "germana"
+        ],
+        [
+            "gianfranco"
+        ],
+        [
+            "luca"
+        ],
+        [
+            "laura"
+        ],
+        [
+            "bianca"
+        ],
+        [
+            "dina"
+        ],
+        [
+            "davide"
+        ],
+        [
+            "cesare"
+        ],
+        [
+            "erik"
+        ],
+        [
+            "ermanno"
+        ],
+        [
+            "boris"
+        ]
+    ],
+    "metriche_globali": {
+        "distanza_media_archi": 5.785572560091451,
+        "numero_nodi": 32,
+        "numero_archi": 60
+    },
+    "commento": "",
+    "interpretazione": ""
+}

@@ -1,0 +1,19 @@
+{
+    "numero_staffettisti": 10,
+    "numero_nodi": 12,
+    "eta_media": 27.8,
+    "eta_std": 9.05,
+    "eta_min": 19,
+    "eta_max": 46,
+    "anni_servizio_media": 6.6,
+    "anni_servizio_std": 9.12,
+    "titolo_studio_moda": [
+        "licenza media"
+    ],
+    "titoli_studio_frequenze": {
+        "licenza media": 4,
+        "laurea triennale": 3,
+        "diploma": 2,
+        "laurea magistrale": 1
+    }
+}

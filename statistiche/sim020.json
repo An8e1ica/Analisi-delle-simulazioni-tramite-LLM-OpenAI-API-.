@@ -1,0 +1,55 @@
+{
+    "gruppo_riferimento": "c",
+    "numero_sottogruppi": 4,
+    "sottogruppi": [
+        {
+            "numero": 1,
+            "numero_componenti": 12,
+            "eta_media": 39.42,
+            "eta_std": 15.51,
+            "anni_servizio_media": 14.92,
+            "anni_servizio_std": 14.03,
+            "titolo_studio_moda": [
+                "diploma"
+            ]
+        },
+        {
+            "numero": 2,
+            "numero_componenti": 8,
+            "eta_media": 38.75,
+            "eta_std": 11.54,
+            "anni_servizio_media": 12.0,
+            "anni_servizio_std": 11.24,
+            "titolo_studio_moda": [
+                "licenza media"
+            ]
+        },
+        {
+            "numero": 3,
+            "numero_componenti": 6,
+            "eta_media": 37.17,
+            "eta_std": 15.47,
+            "anni_servizio_media": 6.0,
+            "anni_servizio_std": 5.37,
+            "titolo_studio_moda": [
+                "laurea magistrale",
+                "laurea triennale",
+                "licenza media"
+            ]
+        },
+        {
+            "numero": 4,
+            "numero_componenti": 4,
+            "eta_media": 35.25,
+            "eta_std": 10.72,
+            "anni_servizio_media": 4.75,
+            "anni_servizio_std": 2.63,
+            "titolo_studio_moda": [
+                "diploma",
+                "laurea magistrale",
+                "laurea triennale",
+                "licenza media"
+            ]
+        }
+    ]
+}
