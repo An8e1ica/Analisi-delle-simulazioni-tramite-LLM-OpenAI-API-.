@@ -20,28 +20,32 @@ Individua quali cambiamenti nella struttura della rete sembrano dipendere da:
 - numero di partecipanti;
 - presenza o assenza di nodi particolarmente centrali.
 
-Confronta le metriche, il numero di archi e percorsi, la formazione dei sottogruppi
-e i cambiamenti nel ruolo strutturale dei partecipanti.
+
 
 Analizza come cambia il modo di lavorare dei gruppi: per esempio policentrismo,
 centralizzazione, gerarchia, rigidità, frammentazione, piccole unità autonome,
 intermediazione e distribuzione dei flussi di lavoro.
 
-Cerca soprattutto differenze tra:
-- lo stesso gruppo sottoposto a regole diverse;
-- gruppi diversi sottoposti a regole uguali o simili;
-- simulazioni che modificano il numero o la presenza dei partecipanti.
+Cerca pattern nelle differenze tra le simulazioni e individua possibili relazioni
+tra le regole applicate, le caratteristiche del gruppo e le strutture organizzative
+che emergono.
 
-Non limitarti a riassumere le singole simulazioni: cerca regolarità, differenze
-e possibili relazioni tra le caratteristiche della simulazione e la struttura
-organizzativa che emerge.
-
-Distingui i risultati osservabili nei dati dalle possibili interpretazioni
-sociologiche.
+Dai priorità ai confronti che mostrano:
+- effetti diversi prodotti da regole diverse sullo stesso gruppo;
+- effetti della stessa regola su gruppi di diversa composizione o dimensione;
+- cambiamenti nel ruolo strutturale dei nodi al variare della regola;
+- relazioni tra densità della rete, centralizzazione, intermediazione,
+  formazione di sottogruppi e distribuzione dei flussi.
+Confronta in particolare le simulazioni 001 e 022, nelle quali la stessa
+regola basata sulla simpatia viene applicata rispettivamente a un gruppo
+di 10 e a un gruppo di 30 partecipanti, per individuare eventuali effetti
+associati alla dimensione del gruppo.
+Distingui i pattern direttamente osservabili nei dati dalle loro possibili
+interpretazioni sociologiche e organizzative.
 """
 dati_comparazione = {}
 
-for n in range(1, 22):
+for n in range(1, 23):
     dati_comparazione[n] = carica_pacchetto2(pacchetti2[n])
 
 print("inizio analisi")

@@ -48,7 +48,7 @@ Distingui chiaramente:
 2. l'interpretazione sociologica plausibile;
 3. le ipotesi che richiederebbero ulteriori simulazioni o dati per essere verificate.
 """
-for n in range(1, 22):
+for n in range(1, 23):
     dati_ai = carica_pacchetto(pacchetti[n])
     response = client.responses.create(model="gpt-5.6",  input=prompt + "\n\nDATI:\n" + json.dumps( dati_ai, ensure_ascii=False)
 )

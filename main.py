@@ -38,7 +38,7 @@ def crea_gruppo_staffetta(seed, nomi, n):
 
 
 def main():
-    gruppo = crea_gruppo_staffetta(42, nomi, 10)
+    gruppo = crea_gruppo_staffetta(40, nomi, 30)
 
     for staffettista in gruppo.values():
         if staffettista.nome == "Fabrizio":
@@ -49,7 +49,7 @@ def main():
 
     criteri=regole.assegna_criteri(gruppo, seed=10)
     #****************************************************************************************
-    G = crea_grafo(gruppo, regole.calcola_peso_distanza)
+    G = crea_grafo(gruppo, regole.calcola_peso_caso)
 
     G.add_node(pacco_destinazione)
     G.add_node(pacco_partenza)
@@ -91,11 +91,11 @@ def main():
     #disegna_grafico_oggetti(G, "Staffetta")
     s1=crea_simulazione(df,G,p, p_meno,p_piu, gruppo,calcolato)
 
-    with open("simulazioni/simulazione_021.json", "w", encoding="utf-8") as file:
+    with open("simulazioni/simulazione_022.json", "w", encoding="utf-8") as file:
 
         json.dump(s1, file, indent=4, ensure_ascii=False)
     print("Json fatto")
-    with open ("simulazioni/simulazione_021.json", "r", encoding="utf-8") as file:
+    with open ("simulazioni/simulazione_022.json", "r", encoding="utf-8") as file:
         dizionario = json.load(file)
         print(dizionario)
 

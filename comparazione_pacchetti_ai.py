@@ -22,7 +22,8 @@ simulazioni = [
     "simulazioni/simulazione_018.json",
     "simulazioni/simulazione_019.json",
     "simulazioni/simulazione_020.json",
-    "simulazioni/simulazione_021.json"
+    "simulazioni/simulazione_021.json",
+"simulazioni/simulazione_022.json"
 ]
 risposte=["risposte_ai/risposta001.json",
 
@@ -45,7 +46,8 @@ risposte=["risposte_ai/risposta001.json",
 "risposte_ai/risposta018.json",
 "risposte_ai/risposta019.json",
 "risposte_ai/risposta020.json",
-"risposte_ai/risposta021.json"
+"risposte_ai/risposta021.json",
+"risposte_ai/risposta022.json"
 ]
 gruppi = [
    "statistiche/gruppoA.json",
@@ -72,7 +74,8 @@ statistiche = [
     "statistiche/sim018.json",
     "statistiche/sim019.json",
     "statistiche/sim020.json",
-    "statistiche/sim021.json"
+    "statistiche/sim021.json",
+"statistiche/sim022.json"
 ]
 informazioni="simulazioni/informazioni_ai.json"
 pacchetti2={}
@@ -101,14 +104,15 @@ def carica_pacchetto2(pacchetto):
         "statistiche_simulazione": statistiche,
         "risposta_ai": risposta
     }
-for i in range(21):
+for i in range(22):
 
     if i == 1:                 # simulazione 002
         gruppo = gruppi[1]
 
     elif 12 <= i < 20:         # simulazioni 013-020
         gruppo = gruppi[2]
-
+    elif i==21:
+        gruppo=gruppi[2]
     else:                      # 001, 003-012, 021
         gruppo = gruppi[0]
 

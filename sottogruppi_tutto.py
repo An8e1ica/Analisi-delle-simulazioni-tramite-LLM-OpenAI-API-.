@@ -3,7 +3,7 @@ import regole
 import analisi
 import json
 import pandas as pd
-with open("simulazioni/simulazione_021.json", "r",  encoding="utf-8") as file:
+with open("simulazioni/simulazione_022.json", "r",  encoding="utf-8") as file:
     simulazione = json.load(file)
 
 df = pd.DataFrame(simulazione["staffettisti"])
@@ -69,6 +69,6 @@ def crea_statistiche_globali(df, simulazione):
         }
     return statistiche_simulazione
 s3=crea_statistiche_globali(df, simulazione)
-with open("statistiche/sim021.json", "w", encoding="utf-8") as file:
+with open("statistiche/sim022.json", "w", encoding="utf-8") as file:
     json.dump(s3, file, indent=4, ensure_ascii=False)
 print("Json fatto")
